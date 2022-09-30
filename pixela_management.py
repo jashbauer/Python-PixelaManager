@@ -10,9 +10,9 @@ from datetime import datetime
 class PixelaManager:
 
     def __init__(self):
-        self.USERNAME = "jashbauer"
-        self.PX_TOKEN = "hijh789haajjnv325bdsk90"
-        self.GRAPH_ID = "graph1"
+        self.USERNAME = "<username>"
+        self.PX_TOKEN = "<Your Token>"
+        self.GRAPH_ID = "<graph id>"
         self.PIXELA_ROOT_ENDPOINT = "https://pixe.la/v1/users"
         self.HEADERS = {"X-USER-TOKEN": self.PX_TOKEN}
 
